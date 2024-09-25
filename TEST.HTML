@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Day in the Digital Life</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            border-bottom: 1px solid #ccc;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: auto;
+        }
+        form label {
+            margin-top: 10px;
+        }
+        form input, form select, form textarea {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 2. Header -->
+    <header>
+        <h1>A Day in the Digital Life</h1>
+        <p>Explore the dynamic and flexible lifestyle of a digital nomad, balancing work and adventure from anywhere in the world.</p>
+    </header>
+
+    <!-- 3. Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#morning">Morning</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#leisure">Leisure</a></li>
+            <li><a href="#evening">Evening</a></li>
+        </ul>
+    </nav>
+
+    <!-- 4. Content Sections -->
+    <section id="morning">
+        <h2>Morning</h2>
+        <p>Start the day with a refreshing workout or a morning jog in a local park. Enjoy a healthy breakfast at a cozy café while planning the day's tasks.</p>
+        <img src="IMAGES/MON.jpg" alt="Digital nomad having breakfast at a café">
+    </section>
+
+    <section id="work">
+        <h2>Work</h2>
+        <p>Settle into a comfortable workspace, whether it's a home office, a co-working space, or a beachfront spot with a laptop. Focus on projects, attend virtual meetings, and collaborate with clients worldwide.</p>
+        <img src="IMAGES/WORK.jpg" alt="Digital nomad working on a laptop">
+    </section>
+
+    <section id="leisure">
+        <h2>Leisure</h2>
+        <p>Take a break to explore the surrounding area. Visit local attractions, engage in hobbies, or connect with other travelers and locals to enrich your experience.</p>
+        <img src="IMAGES/Leisure.jpg" alt="Digital nomad exploring a new city">
+    </section>
+
+    <section id="evening">
+        <h2>Evening</h2>
+        <p>Wind down the day by enjoying a nice dinner, perhaps trying out new cuisines. Reflect on the day's achievements and plan for tomorrow before relaxing with some entertainment.</p>
+        <img src="IMAGES/Evening.jpg" alt="Digital nomad enjoying evening at a restaurant">
+    </section>
+
+    <!-- 5. Embed Multimedia -->
+    <section>
+        <h2>Experience the Lifestyle</h2>
+        <!-- Video -->
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Audio -->
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- 6. Table -->
+    <section>
+        <h2>Daily Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>6:30 AM</td>
+                    <td>Morning Workout</td>
+                </tr>
+                <tr>
+                    <td>8:00 AM</td>
+                    <td>Breakfast & Planning</td>
+                </tr>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Work Session 1</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td>Lunch Break</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Work Session 2</td>
+                </tr>
+                <tr>
+                    <td>5:00 PM</td>
+                    <td>Leisure Activities</td>
+                </tr>
+                <tr>
+                    <td>7:00 PM</td>
+                    <td>Dinner & Relaxation</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 7. Embed a Map -->
+    <section>
+        <h2>Current Location: Bali, Indonesia</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.815939872055!2d115.188919315325!3d-8.409518393501404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2470e3a3f3f1b%3A0xa9a1e1d0d1b3b3b!2sUbud%2C%20Bali%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0">
+        </iframe>
+    </section>
+
+    <!-- 8. Design a Form -->
+    <section>
+        <h2>Join the Digital Nomad Community</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="city">Favorite Digital Nomad City:</label>
+            <select id="city" name="city" required>
+                <option value="">--Please choose an option--</option>
+                <option value="bali">Bali, Indonesia</option>
+                <option value="chiangmai">Chiang Mai, Thailand</option>
+                <option value="lisbon">Lisbon, Portugal</option>
+                <option value="medellin">Medellín, Colombia</option>
+                <option value="berlin">Berlin, Germany</option>
+                <option value="berlin">MOGADISHO, SOMALIA</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Share your thoughts..."></textarea>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- 9. Footer -->
+    <footer>
+        <p>&copy; 2024 A Day in the Digital Life. All rights reserved.</p>
+        <p>
+            <a href="#" style="margin-right:10px;">Facebook</a> |
+            <a href="#" style="margin-left:10px;">Twitter</a> |
+            <a href="#" style="margin-left:10px;">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
