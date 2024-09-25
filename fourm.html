@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your password" name="password"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" name="email"><br><br>
+
+    <label for="bio">Bio:</label>
+    <textarea id="bio" name="bio" placeholder="bio"></textarea><br><br>
+
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+        <option value="marketing">Marketing</option>
+        <option value="sales">Sales</option>
+        <option value="development">Development</option>
+        <option value="hr">HR</option>
+    </select><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label>Interests:</label>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label>
+    <input type="checkbox" id="streaming" name="interests" value="streaming">
+    <label for="streaming">Streaming</label>
+    <input type="checkbox" id="art" name="interests" value="art">
+    <label for="art">Art</label><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
